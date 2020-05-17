@@ -36,7 +36,7 @@ class Game(object):
       self.proccess_next_generation()
       time.sleep(self.delay)
 
-  def proccess_next_generation(self):
+  def proccess_next_generation(self) -> None:
     dead = []
     live = []
 
